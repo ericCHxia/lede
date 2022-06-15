@@ -50,7 +50,7 @@ jobs:
       - name: Generate configuration file
         run: |
           rm -f ./.config*
-          curl -o ./.config  https://pastebin.com/raw/kkx4YDcz
+          curl -o ./.config  https://pastebin.com/raw/V3LVJ5PD
           sed -i 's/^[ \t]*//g' ./.config
           make defconfig
 
